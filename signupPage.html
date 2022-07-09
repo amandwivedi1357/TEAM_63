@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #container{
+            text-align: center;
+            width: 250px;
+            height: auto;
+            background-color: rgb(72, 201, 176);
+            padding: 20px;
+            margin: auto;
+        }
+        p{
+            margin:auto;
+            color: white;
+            font-size: 20px;
+            font-weight:lighter;
+        }
+        #container>div{
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 15px;
+        }
+        .btn{
+            width: 100%;
+            padding: 14px;
+            background-color: rgb(23, 165, 137);
+            border: 0px;
+            color: white;
+            margin: auto;
+        }
+        .inp{
+            background-color: rgb(242, 242, 242);
+            width: 80%;
+            margin: auto;
+            padding: 14px 10%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <p>signupPage</p>
+    <div id="container">
+        <p>- Visitor -</p>
+        <div>
+            <input class="inp" type="text" placeholder="Full name"/>
+            <input class="inp" type="text" placeholder="Email"/>
+            <input class="inp" type="text" placeholder="Organization"/>
+            <button class="btn">SIGN UP</button>
+            <button class="btn">RETURN</button>
+        </div>
+       
+    </div>
 </body>
 </html>
