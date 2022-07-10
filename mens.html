@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mens Page</title>
+    <style>
+        #container{
+            width: 60%;
+            height: auto;
+            
+            margin:auto;
+            display:flex;
+            justify-content: space-between;
+
+        }
+        #container>div{
+            width: 40%;
+            height: 100%;
+           
+        }
+
+        #container>div>img{
+            width:100%;
+            height: 50%;
+        }
+        #container>div>div{
+            margin-left: 10px;
+        }
+       #container>div>div>p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:8px auto 8px auto;
+        }
+        #container>div>div>p:nth-child(1),p:nth-child(3){
+            font-weight: bold;
+        }
+       #container>div>div>p:nth-child(2){
+            color:teal
+        }
+        #container>div>div>div{
+            display:flex;
+            
+        }
+        #container>div>div>div>div:nth-child(1){
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 30px;
+        }
+        #container>div>div>div>div:nth-child(2){
+            font-weight: bold;
+            color: teal;
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+        #container>div>div>div>div>p{
+            margin-top:2px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="Proda">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2445828/2018/2/12/11518424114599-Puma-White-Slim-Fit-Solid-India-Embroidery-Polo-T-Shirt-4991518424114436-1.jpg" alt="1">
+            <div>
+            <p>Pause</p>
+            <p>Men Clothing Long Sleeves Shrug</p>
+           <div><div><p>$359</p></div><div><p>-76%</p></div></div> 
+           
+            </div>
+        </div>
+        <div class="Prodb">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2445828/2018/2/12/11518424114599-Puma-White-Slim-Fit-Solid-India-Embroidery-Polo-T-Shirt-4991518424114436-1.jpg" alt="1">
+            <div>
+            <p>JUBINATION</p>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <div><div><p>$799</p></div><div><p>-47%</p></div></div> 
+           
+            </div>
+        </div>
+    </div>
 </body>
 </html>
